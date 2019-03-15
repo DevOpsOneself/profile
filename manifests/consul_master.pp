@@ -19,6 +19,5 @@ class profile::consul_master (
       'server'           => true,
       'ui'               => true
     },
-    download_url => 'https://releases.hashicorp.com/consul/1.4.3/consul_1.4.3_linux_amd64.zip',
   }
 }
